@@ -1,0 +1,38 @@
+PASS 1 BOM
+PASS 2 comma newline quote
+PASS 3 CRLF
+PASS 4 unclosed
+PASS 5 column count
+PASS 6 duplicate header
+PASS 7 quote position
+PASS 8 post quote
+PASS 9 blank CSV
+PASS 10 integer
+PASS 11 decimal rejected
+PASS 12 negative rejected
+PASS 13 scientific rejected
+PASS 14 empty rejected
+PASS 15 too big rejected
+PASS 16 orders not lines
+PASS 17 receive once
+PASS 18 shipped inherit
+PASS 19 unshipped separated
+PASS 20 status excluded
+PASS 21 subtotal no fee guessing
+PASS 22 exact duplicate
+PASS 23 conflict rejected
+PASS 24 order metadata conflict
+PASS 25 empty receive rejected
+PASS 26 missing header
+PASS 27 order string leading0
+PASS 28 formula escaped
+PASS 29 negative integer numeric
+PASS 30 G06 giveaway counterexample
+PASS 31 no false sales
+PASS 32 stock mismatch
+PASS 33 cash mismatch
+PASS 34 cashless excluded from cash
+PASS 35 refund more than sales
+PASS 36 returned more than sold
+PASS 37 negative stock
+TOTAL 37
